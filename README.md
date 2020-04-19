@@ -6,7 +6,11 @@ A command line tool to wrap git command to enforce a custom git commit message c
 
 `gitx commit`
 
-In most cases, that's all you need to type. In fact, `gitx` supports the same set of [options](https://git-scm.com/docs/git-commit) as `git commit`. But be noted that if you give any of the following options, it will not prompt for convention, instead it will pass all the parameters to `git` command:
+In most cases, that's all you need to type. In fact, `gitx` supports the same set of [options](https://git-scm.com/docs/git-commit) as `git commit`. 
+
+![](https://github.com/emac/gitx/blob/master/How%20to%20use.gif)
+
+But be noted that if you give any of the following options, it will not prompt for convention, instead it will pass all the parameters to `git` command:
 
 - -m/--message
 
