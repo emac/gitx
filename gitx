@@ -6,7 +6,7 @@
 #    https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y
 # 
 # author: Emac Shen
-# version: 0.1.0-20200419
+# version: 0.1.1-20210131
 # ----------------------------------------------------------------------------
 
 # check whether `git` executable exists
@@ -66,7 +66,7 @@ fi
 loop_read GITX_SHORT_DESCRIPTION "short description: "
 
 # prompt for long description(skipable)...
-read -p "long description (press ENTER to skip): " GITX_LONG_DESCRIPTION
+read -p "long description (enter $ to end): " -d '$' GITX_LONG_DESCRIPTION
 
 # compose full commit message ($GITX_MESSAGE) in the following format:
 # <type>(<scope>): <short description>
